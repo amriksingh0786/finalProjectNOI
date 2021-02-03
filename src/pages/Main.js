@@ -7,26 +7,24 @@ export default class Main extends React.Component {
     const { currentUser } = firebase.auth()
     this.setState({ currentUser })
 }
-handleLogout = ()=>{
+
   
-     this.props.navigation.navigate('login')
+     
   
   
-}
+
 
 render() {
     const { currentUser } = this.state
 return (
+  
       <View style={styles.container}>
         <Text>
           Hi {currentUser && currentUser.email}!
         </Text>
-        <Touchable onPress={this.handleLogout}>
-          <Text>
-            SignOut
-          </Text>
-        </Touchable>
       </View>
+    
+ 
     )
   }
 }
