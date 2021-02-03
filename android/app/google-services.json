@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485781415803",
+    "project_id": "finallogin-73367",
+    "storage_bucket": "finallogin-73367.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485781415803:android:e8d00891db73a02c78bfde",
+        "android_client_info": {
+          "package_name": "com.finallogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485781415803-duph54086egf778ivaolmvviu6qcaojl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_qHFNL1u-oWskcZOkaJc5VqgBfh-qvus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485781415803-duph54086egf778ivaolmvviu6qcaojl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
